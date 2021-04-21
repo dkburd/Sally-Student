@@ -1,7 +1,23 @@
-h2 {
-  display: inline;
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-h2:after {
-  content: "\a";
-  white-space: pre;
+
+main {
+  float: left;
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+html {
+  font-size: large;
 }
